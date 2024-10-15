@@ -1,0 +1,30 @@
+@import "../../styles/_variables.scss";
+
+
+footer {
+  display: flex;
+  background-color: #f8f5f1;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Work sans";
+  text-transform: uppercase;
+  margin-top: 3rem;
+
+  .icons {
+    padding: 3rem;
+    img {
+      height: 0.9rem;
+      margin: 0.7rem;
+      filter: invert(23%) sepia(18%) saturate(1509%) hue-rotate(332deg)
+        brightness(94%) contrast(87%);
+    }
+  }
+
+  .copyright {
+    color: $text_color_hover;
+    text-transform: none;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+}
