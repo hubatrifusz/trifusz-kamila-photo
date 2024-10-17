@@ -11,3 +11,9 @@ body {
   background-color: $background_color;
   scroll-behavior: smooth;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
