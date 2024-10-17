@@ -1,12 +1,10 @@
 @import "../../../styles/_variables.scss";
 
 button {
-  margin-top: 2rem;
-  margin-bottom: 5rem;
   display: flex;
   justify-content: center;
   border: none;
-
+  background-color: #ffffff00;
   a {
     background-color: $button-background;
     color: $button-text;
@@ -18,6 +16,7 @@ button {
     text-transform: uppercase;
     transition: background-color 0.15s ease-in-out;
     text-decoration: none;
+    border-radius: 3px;
   }
 
   a:hover {
