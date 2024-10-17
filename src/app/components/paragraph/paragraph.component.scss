@@ -4,4 +4,12 @@ p {
   font-weight: 400;
   font-style: normal;
   word-break: break-all;
+  width: 60vw;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  p {
+    width: 85vw;
+  }
 }

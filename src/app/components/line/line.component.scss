@@ -1,0 +1,16 @@
+@import "../../../styles/_variables.scss";
+
+div {
+  margin-top: 1rem;
+  height: 1px;
+  width: 60vw;
+  background-color: $line_color;
+  margin: 3rem 0 3rem;
+}
+
+@media (max-width: 800px) {
+  div {
+    width: 85vw;
+    margin: 1.5rem 0 1.5rem;
+  }
+}
